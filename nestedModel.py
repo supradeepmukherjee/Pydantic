@@ -21,7 +21,7 @@ Comment.model_rebuild()
 address=Address(
     street='Pakistan MC',
     city='Hindupur(Erstwhile Islamabad)',
-    postalCode:'000000'
+    postalCode='000000'
 )
 
 user=User(
@@ -32,15 +32,15 @@ user=User(
 
 comment=Comment(
     id=1,
-    content:'1st',
+    content='1st',
     replies=[
         Comment(
             id=2,
-            content:'reply1'
+            content='reply1'
         ),
         Comment(
             id=3,
-            content:'reply2'
+            content='reply2'
         ),
     ]
 )
